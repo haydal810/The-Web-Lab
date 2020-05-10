@@ -1,5 +1,5 @@
 function sendMail(contact_form) {
-    emailjs.send("gmail", "haydal_tmps_website", {
+    emailjs.send("gmail", "the_web_lab_templateID", {
         "message": contact_form.message.value,
         "from_name": contact_form.name.value,
         "from_email": contact_form.email.value,
