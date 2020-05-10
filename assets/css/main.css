@@ -3222,3 +3222,13 @@ input, select, textarea {
 			}
 
 	}
+
+/* Customised CSS - by The Web Lab */
+
+@media screen and (min-width: 0px) and (max-width: 400px) {
+	#whatsapp_link { display: block; }  /* show it on small screens */
+  }
+  
+  @media screen and (min-width: 401px) and (max-width: 2000px) {
+	#whatsapp_link { display: none; }   /* hide it elsewhere */
+  }
