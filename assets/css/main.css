@@ -2069,7 +2069,7 @@ input, select, textarea {
 		}
 
 			.image.thumb:after {
-				-moz-transition: opacity 0.2s ease-in-out;
+				/* -moz-transition: opacity 0.2s ease-in-out;
 				-webkit-transition: opacity 0.2s ease-in-out;
 				-ms-transition: opacity 0.2s ease-in-out;
 				transition: opacity 0.2s ease-in-out;
@@ -2089,7 +2089,7 @@ input, select, textarea {
 				text-align: center;
 				text-decoration: none;
 				top: 50%;
-				white-space: nowrap;
+				white-space: nowrap; */
 			}
 
 			.image.thumb:hover:after {
@@ -2966,9 +2966,9 @@ input, select, textarea {
 		opacity: 0.5 !important;
 	}
 
-	body.is-touch .image.thumb:after {
+	/* body.is-touch .image.thumb:after {
 		display: none !important;
-	}
+	} */
 
 	body.is-touch #header {
 		background-attachment: scroll;
